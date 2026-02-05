@@ -1,7 +1,7 @@
 from src.app import calculator, grade
 
 def test_calculator():
-    total, percent = calculator(85, 90, 78, 92, 88)
+    total, percent = calculator(85, 90, 78, 92)
     assert total == 433
     assert percent == 86.6
 
